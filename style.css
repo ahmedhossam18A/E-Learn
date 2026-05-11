@@ -264,3 +264,73 @@ footer {
         padding: 40px 30px;
     }
 }
+/* 11. تنسيقات صفحة About Us المحدثة */
+.about-hero {
+    padding: 150px 10% 60px;
+    background: #f4f7f6;
+    text-align: center;
+}
+
+.about-content h1 {
+    font-size: 3rem;
+    color: #2d3436;
+    margin-bottom: 20px;
+}
+
+.about-content span { color: #6c5ce7; }
+
+.about-grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 0 10% 100px;
+}
+
+.about-card {
+    background: white;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: 0.4s;
+    border: 1px solid #eee;
+}
+
+.about-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(108, 92, 231, 0.1); }
+
+.about-card.highlight {
+    background: linear-gradient(135deg, #6c5ce7, #0984e3);
+    color: white;
+}
+
+.about-card.highlight h3 { color: white; }
+
+.about-icon { font-size: 3rem; margin-bottom: 20px; }
+
+/* تنسيق صندوق الاهتمامات */
+.interest-box {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.interest-box input {
+    padding: 12px;
+    border: 2px solid #eee;
+    border-radius: 12px;
+    outline: none;
+    text-align: center;
+}
+
+.interest-box button {
+    padding: 12px;
+    background: #fab1a0;
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.interest-box button:hover { background: #6c5ce7; color: white; }
