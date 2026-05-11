@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Us - E-Learn</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .about-container {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            padding: 120px 10%;
+        }
+        .about-text { flex: 1; }
+        .about-img { flex: 1; }
+        .about-img img {
+            width: 100%;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .feedback-box {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 10px;
+        }
+        .custom-input {
+            width: 100%;
+            padding: 12px;
+            margin-top: 10px;
+            border: 2px solid #6c5ce7;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">E-Learn</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="about-container">
+        <div class="about-text">
+            <h2>About Our Vision</h2>
+            <p>We provide students of <strong>Nahda University</strong> with the best tools to master web development and modern programming languages.</p>
+            <div class="feedback-box">
+                <label>Tell us what you want to learn:</label>
+                <input type="text" class="custom-input" placeholder="Enter your interest here...">
+            </div>
+        </div>
+        <div class="about-img">
+            <img src="photo html.png" alt="Education Image">
+        </div>
+    </div>
+</body>
+</html>
