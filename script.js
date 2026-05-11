@@ -50,7 +50,7 @@ if (loginForm) {
         const user = document.getElementById('username').value;
         const pass = document.getElementById('password').value;
 
-        if(user === "admin" && pass === "12345") {
+        if(user === "admin" && pass === "892007") {
             // تشغيل القصاصات الملونة (Confetti)
             if (typeof confetti === 'function') {
                 confetti({
