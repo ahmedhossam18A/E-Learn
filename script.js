@@ -73,7 +73,7 @@ if (loginForm) {
         } else {
             const errorElement = document.getElementById('error');
             if (errorElement) {
-                errorElement.innerText = "بيانات الدخول غير صحيحة!";
+                errorElement.innerText = "Check your username and password";
                 errorElement.style.display = "block";
             }
         }
